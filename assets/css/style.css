@@ -1,0 +1,6 @@
+/*Navbar*/
+.navbar{
+    position:fixed-top;
+    width: 100vw;
+    z-index: 1;
+}
