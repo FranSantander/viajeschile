@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 body{
     background-color: black;
     font-family: "Open Sans";
@@ -5,7 +9,7 @@ body{
 /*Navbar*/
 .navbar{
     background-color: transparent;
-    position:fixed-top;
+    position:top-fixed;
     font-size:small;
     width: 100vw;
     z-index: 1;
@@ -35,19 +39,26 @@ body{
 
 /*Destacados*/
 #Destacados{
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 /*Contacto*/
-#contacto {
-    padding-top: 100px;
-    padding-bottom: 100px;
+#Contacto h1{
+    padding-top: 120px;
+    color:white
+   font-family: "Open Sans";
+   font-size:xx-large;
+}
+#Contacto Hola{
+    color: white;
 }
 
 /*Footer*/
-#Footer{
-    width: 53px;
-    height: 100px;
-    margin-top: 100px;
-   
+#Footer h1{
+font-family: "Open Sans";  
+}
+
+#Footer a{
+    color: white;
+    text-decoration: none;
 }
