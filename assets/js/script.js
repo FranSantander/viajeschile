@@ -10,16 +10,6 @@ $(document).ready(function(){
                 scrollTop: $(gato).offset().top 
             },
             800
-            
-
-
-
         )
-
-
-
     })
-
-
-
 })
